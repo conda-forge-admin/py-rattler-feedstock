@@ -114,6 +114,9 @@ outputs:
             - openssl
       run:
         - python
+      extras:
+        networkx:
+          - networkx
     tests:
       - python:
           imports:
